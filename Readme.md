@@ -49,3 +49,4 @@ Could learn:
 1. Erlang
 1. Lua
 1. Perl
+1. F#
