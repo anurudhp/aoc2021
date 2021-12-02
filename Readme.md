@@ -18,11 +18,13 @@ How To Use
 Unused Languages
 ----------------
 
-I know:
-
+### Banned
 1. C
 1. C++
 1. Python
+
+### I know
+
 1. C#
 1. Java
 1. Kotlin
@@ -51,3 +53,6 @@ Could learn:
 1. Lua
 1. Perl
 1. F#
+1. Prolog
+1. Fortran
+1. Cobol
