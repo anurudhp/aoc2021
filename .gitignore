@@ -3,6 +3,7 @@
 *.o
 *.hi
 tmp/
+utils/
 dist-newstyle
 CHANGELOG.md
 Setup.hs

@@ -6,6 +6,8 @@ Personal Challenge: Code each solution in a different language.
 Problems
 --------
 
+1. `day01-part1.bf`, `day01-part2.bf` (Brainfuck)
+
 How To Use
 ----------
 
@@ -43,7 +45,6 @@ Could learn:
 1. Julia
 1. R
 1. Pascal
-1. Brainfuck
 1. vimscript
 1. PHP
 1. Erlang
