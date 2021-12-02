@@ -7,6 +7,7 @@ Problems
 --------
 
 1. Brainfuck: `day01-part1.bf`, `day01-part2.bf`
+2. Fortran (F90): `day02.f90`
 
 How To Use
 ----------
@@ -54,5 +55,4 @@ Unused Languages
 1. Perl
 1. F#
 1. Prolog
-1. Fortran
 1. Cobol

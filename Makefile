@@ -8,6 +8,14 @@ run-day01: day01
 	./utils/bf-int day01-part1.bf inputs/day01.in
 	./utils/bf-int day01-part2.bf inputs/day01.in
 
-clean:
+# Day 02
+day02: day02.f90
+	gfortran -o $@ $^
 
-.PHONY: clean run-day01
+run-day02: day02
+	./day02 <inputs/day02.in
+
+clean:
+	rm day02
+
+.PHONY: clean
