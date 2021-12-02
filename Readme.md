@@ -6,7 +6,7 @@ Personal Challenge: Code each solution in a different language.
 Problems
 --------
 
-1. `day01-part1.bf`, `day01-part2.bf` (Brainfuck)
+1. Brainfuck: `day01-part1.bf`, `day01-part2.bf`
 
 How To Use
 ----------
@@ -40,7 +40,7 @@ Unused Languages
 1. LEAN
 1. Matlab
 
-Could learn:
+### Could learn
 
 1. D
 1. APL
