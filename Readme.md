@@ -7,14 +7,14 @@ Problems
 --------
 
 1. Brainfuck: `day01-part1.bf`, `day01-part2.bf`
-2. Fortran (F90): `day02.f90`
+1. Fortran (F90): `day02.f90`
+1. F#: `day03/Program.fs`
 
 How To Use
 ----------
 
 - To build: `make dayXX`
-- To run: `make run-dayXX`
-
+- To run: Put your input in `inputs/dayXX.in`, then run `make run-dayXX`
 
 Unused Languages
 ----------------
@@ -43,16 +43,15 @@ Unused Languages
 
 ### Could learn
 
-1. D
-1. APL
-1. Julia
-1. R
 1. Pascal
-1. vimscript
-1. PHP
+1. Perl
 1. Erlang
 1. Lua
-1. Perl
-1. F#
-1. Prolog
+1. Julia
+1. PHP
+1. D
 1. Cobol
+1. R
+1. Prolog
+1. APL
+1. vimscript

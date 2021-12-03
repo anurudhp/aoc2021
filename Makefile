@@ -15,7 +15,13 @@ day02: day02.f90
 run-day02: day02
 	./day02 <inputs/day02.in
 
+day03:
+	cd day03 && dotnet build
+
+run-day03:
+	cd day03 && dotnet run -- ../inputs/day03.in
+
 clean:
 	rm day02
 
-.PHONY: clean
+.PHONY: clean day03
