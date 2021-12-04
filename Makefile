@@ -15,13 +15,20 @@ day02: day02.f90
 run-day02: day02
 	./day02 <inputs/day02.in
 
+# Day 03
 day03:
 	cd day03 && dotnet build
 
 run-day03:
 	cd day03 && dotnet run -- ../inputs/day03.in
 
+# Day 04
+day04:
+
+run-day04:
+	php day04.php <inputs/day04.in
+
 clean:
-	rm day02
+	rm -f day02 day04
 
 .PHONY: clean day03

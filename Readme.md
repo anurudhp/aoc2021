@@ -9,6 +9,7 @@ Problems
 1. Brainfuck: `day01-part1.bf`, `day01-part2.bf`
 1. Fortran (F90): `day02.f90`
 1. F#: `day03/Program.fs`
+1. PHP: `day04.php`
 
 How To Use
 ----------
@@ -48,10 +49,9 @@ Unused Languages
 1. Erlang
 1. Lua
 1. Julia
-1. PHP
 1. D
-1. Cobol
 1. R
 1. Prolog
 1. APL
 1. vimscript
+1. Cobol
