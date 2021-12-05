@@ -28,7 +28,15 @@ day04:
 run-day04:
 	php day04.php <inputs/day04.in
 
+# Day 05
+day05: day05.d
+	dmd day05.d
+
+run-day05: day05
+	./day05 <inputs/day05.in
+
+# Misc
 clean:
-	rm -f day02 day04
+	rm -f day02 day04 day05
 
 .PHONY: clean day03

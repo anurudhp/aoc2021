@@ -10,6 +10,7 @@ Problems
 1. Fortran (F90): `day02.f90`
 1. F#: `day03/Program.fs`
 1. PHP: `day04.php`
+2. D: `day05.d`
 
 How To Use
 ----------
@@ -41,6 +42,7 @@ Unused Languages
 1. Coq
 1. LEAN
 1. Matlab
+1. Bash
 
 ### Could learn
 
@@ -49,9 +51,12 @@ Unused Languages
 1. Erlang
 1. Lua
 1. Julia
-1. D
 1. R
 1. Prolog
 1. APL
 1. vimscript
 1. Cobol
+1. Euclid
+1. PureScript
+1. Tex (LaTeX)
+1. Octave
