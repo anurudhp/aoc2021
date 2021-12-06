@@ -35,6 +35,12 @@ day05: day05.d
 run-day05: day05
 	./day05 <inputs/day05.in
 
+# Day 06
+day06:
+
+run-day06:
+	dyalog -script day06.apl
+
 # Misc
 clean:
 	rm -f day02 day04 day05

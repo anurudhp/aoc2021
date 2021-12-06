@@ -10,7 +10,8 @@ Problems
 1. Fortran (F90): `day02.f90`
 1. F#: `day03/Program.fs`
 1. PHP: `day04.php`
-2. D: `day05.d`
+1. D: `day05.d`
+1. APL: `day06.apl`
 
 How To Use
 ----------
@@ -53,7 +54,6 @@ Unused Languages
 1. Julia
 1. R
 1. Prolog
-1. APL
 1. vimscript
 1. Cobol
 1. Euclid
