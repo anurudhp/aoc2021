@@ -41,6 +41,12 @@ day06:
 run-day06:
 	dyalog -script day06.apl
 
+# Day 07
+day07:
+
+run-day07:
+	Rscript --vanilla day07.R inputs/day07.in
+
 # Misc
 clean:
 	rm -f day02 day04 day05

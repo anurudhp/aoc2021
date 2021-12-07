@@ -12,6 +12,7 @@ Problems
 1. PHP: `day04.php`
 1. D: `day05.d`
 1. APL: `day06.apl`
+1. R: `day07.R`
 
 How To Use
 ----------
@@ -52,7 +53,6 @@ Unused Languages
 1. Erlang
 1. Lua
 1. Julia
-1. R
 1. Prolog
 1. vimscript
 1. Cobol
