@@ -2,9 +2,7 @@
 utils/bf-int: utils/bf-int.cpp
 	g++ -O3 utils/bf-int.cpp -o utils/bf-int
 
-day01: utils/bf-int
-
-run-day01: day01
+run-day01: utils/bf-int
 	./utils/bf-int day01-part1.bf inputs/day01.in
 	./utils/bf-int day01-part2.bf inputs/day01.in
 
@@ -23,8 +21,6 @@ run-day03:
 	cd day03 && dotnet run -- ../inputs/day03.in
 
 # Day 04
-day04:
-
 run-day04:
 	php day04.php <inputs/day04.in
 
@@ -36,19 +32,18 @@ run-day05: day05
 	./day05 <inputs/day05.in
 
 # Day 06
-day06:
-
 run-day06:
 	dyalog -script day06.apl
 
 # Day 07
-day07:
-
 run-day07:
 	Rscript --vanilla day07.R inputs/day07.in
 
 # Misc
 clean:
-	rm -f day02 day04 day05
+	rm -f day02 day05
+
+all: run-day01 run-day02 run-day03 run-day04 run-day05 \
+     run-day06 run-day07
 
 .PHONY: clean day03

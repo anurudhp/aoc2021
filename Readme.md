@@ -17,8 +17,7 @@ Problems
 How To Use
 ----------
 
-- To build: `make dayXX`
-- To run: Put your input in `inputs/dayXX.in`, then run `make run-dayXX`
+Put your input in `inputs/dayXX.in`, then run `make run-dayXX`
 
 Unused Languages
 ----------------
