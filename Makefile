@@ -39,9 +39,16 @@ run-day06:
 run-day07:
 	Rscript --vanilla day07.R inputs/day07.in
 
+# Day 08
+day08: day08.pas
+	fpc day08.pas
+
+run-day08: day08
+	./day08 <inputs/day08.in
+
 # Misc
 clean:
-	rm -f day02 day05
+	rm -f *.o day02 day05 day08
 
 all: run-day01 run-day02 run-day03 run-day04 run-day05 \
      run-day06 run-day07

@@ -13,6 +13,7 @@ Problems
 1. D: `day05.d`
 1. APL: `day06.apl`
 1. R: `day07.R`
+1. Pascal: `day08.pas`
 
 How To Use
 ----------
@@ -47,7 +48,6 @@ Unused Languages
 
 ### Could learn
 
-1. Pascal
 1. Perl
 1. Erlang
 1. Lua
