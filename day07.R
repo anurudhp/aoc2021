@@ -1,10 +1,11 @@
 # input
 inf <- commandArgs(trailingOnly=TRUE)[1]
-crabs <- sapply(read.csv(inf, header=FALSE), as.integer)
+X <- sapply(read.csv(inf, header=FALSE), as.integer)
 
 # part 1
-sum(abs(crabs - median(crabs)))
+sum(abs(X - median(X)))
 
 # part 2
-d <- abs(crabs - round(mean(crabs) - 0.5))
-sum((d * (d + 1)) / 2)
+N <- length(X)
+min(sapply(unique(round(mean(X) + 0.5 - seq(1, N)/N)),
+           function(y) { sum((X - y)^2 + abs(X - y)) / 2 }))
