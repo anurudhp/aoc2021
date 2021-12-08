@@ -8,7 +8,7 @@ Problems
 
 1. Brainfuck: `day01-part1.bf`, `day01-part2.bf`
 1. Fortran (F90): `day02.f90`
-1. F#: `day03/Program.fs`
+1. F#: `day03.fs` (symlinked to `day03/Program.fs`)
 1. PHP: `day04.php`
 1. D: `day05.d`
 1. APL: `day06.apl`
