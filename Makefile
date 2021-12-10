@@ -46,6 +46,11 @@ day08: day08.pas
 run-day08: day08
 	./day08 <inputs/day08.in
 
+# Day 09
+run-day09:
+	@echo "info: auto-run not supported."
+	@echo "info: copy the script into matlab and run it."
+
 # Misc
 clean:
 	rm -f *.o day02 day05 day08

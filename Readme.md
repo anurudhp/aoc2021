@@ -14,6 +14,7 @@ Problems
 1. APL: `day06.apl`
 1. R: `day07.R`
 1. Pascal: `day08.pas`
+1. Matlab: `day09.m`
 
 How To Use
 ----------
@@ -30,20 +31,19 @@ Unused Languages
 
 ### I know
 
-1. C#
+1. Haskell
 1. Java
+1. Javascript (node)
+1. C#
 1. Kotlin
 1. Ruby
 1. Scala
 1. Rust
 1. Go
-1. Javascript (node)
-1. Haskell
 1. Lisp (clojure)
 1. OCaml
 1. Coq
 1. LEAN
-1. Matlab
 1. Bash
 
 ### Could learn
