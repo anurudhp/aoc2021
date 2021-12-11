@@ -15,6 +15,7 @@ Problems
 1. R: `day07.R`
 1. Pascal: `day08.pas`
 1. Matlab: `day09.m`
+1. Lisp (clojure): `day10.clj`
 
 How To Use
 ----------
@@ -40,7 +41,6 @@ Unused Languages
 1. Scala
 1. Rust
 1. Go
-1. Lisp (clojure)
 1. OCaml
 1. Coq
 1. LEAN
