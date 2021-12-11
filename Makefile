@@ -55,6 +55,11 @@ run-day09:
 run-day10:
 	clojure -M day10.clj <inputs/day10.in
 
+# Day 11
+run-day11:
+	java day11.java <inputs/sample.in
+	java day11.java <inputs/day11.in
+
 # Misc
 clean:
 	rm -f *.o day02 day05 day08
