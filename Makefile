@@ -57,7 +57,6 @@ run-day10:
 
 # Day 11
 run-day11:
-	java day11.java <inputs/sample.in
 	java day11.java <inputs/day11.in
 
 # Misc
