@@ -17,6 +17,7 @@ Problems
 9. Matlab: `day09.m`
 10. Lisp (clojure): `day10.clj`
 11. Java: `day11.java`
+12. Ruby: `day12.rb`
 
 How To Use
 ----------
@@ -37,7 +38,6 @@ Unused Languages
 1. Javascript (node)
 1. C#
 1. Kotlin
-1. Ruby
 1. Scala
 1. Rust
 1. Go

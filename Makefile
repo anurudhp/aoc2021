@@ -59,11 +59,16 @@ run-day10:
 run-day11:
 	java day11.java <inputs/day11.in
 
+# Day 12
+run-day12:
+	ruby day12.rb <inputs/day12.in
+
 # Misc
 clean:
 	rm -f *.o day02 day05 day08
 
 all: run-day01 run-day02 run-day03 run-day04 run-day05 \
-     run-day06 run-day07 run-day08 run-day09 run-day10
+     run-day06 run-day07 run-day08 run-day09 run-day10 \
+     run-day11 run-day12
 
 .PHONY: clean day03
