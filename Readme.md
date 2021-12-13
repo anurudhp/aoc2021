@@ -18,6 +18,7 @@ Problems
 10. Lisp (clojure): `day10.clj`
 11. Java: `day11.java`
 12. Ruby: `day12.rb`
+13. Lean (lean4): `day13.lean`
 
 How To Use
 ----------
@@ -43,7 +44,6 @@ Unused Languages
 1. Go
 1. OCaml
 1. Coq
-1. LEAN
 1. Bash
 
 ### Could learn
