@@ -48,14 +48,17 @@ Unused Languages
 
 ### Could learn
 
-1. Perl
 1. Erlang
 1. Lua
 1. Julia
+1. PureScript
+1. Perl
 1. Prolog
+
+### Extra
+
 1. vimscript
 1. Cobol
 1. Euclid
-1. PureScript
 1. Tex (LaTeX)
 1. Octave
