@@ -20,6 +20,7 @@ Problems
 12. Ruby: `day12.rb`
 13. Lean (lean4): `day13.lean`
 14. Purescript: `day14.purs` (symlinked to `day14/day14.purs`)
+15. C#: `day15.cs` (symlinked to `day15/Program.cs`)
 
 How To Use
 ----------
@@ -38,7 +39,6 @@ Unused Languages
 
 1. Haskell
 1. Javascript (node)
-1. C#
 1. Kotlin
 1. Scala
 1. Rust
