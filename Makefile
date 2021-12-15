@@ -79,7 +79,7 @@ run-day14:
 
 # Misc
 clean:
-	rm -f *.o day02 day05 day08 day13.c day13.out
+	rm -f *.o utils/bf-int day02 day05 day08 day13.c day13.out
 
 all: run-day01 run-day02 run-day03 run-day04 run-day05 \
      run-day06 run-day07 run-day08 run-day09 run-day10 \
