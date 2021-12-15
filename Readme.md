@@ -19,6 +19,7 @@ Problems
 11. Java: `day11.java`
 12. Ruby: `day12.rb`
 13. Lean (lean4): `day13.lean`
+14. Purescript: `day14.purs` (symlinked to `day14/day14.purs`)
 
 How To Use
 ----------
@@ -51,7 +52,6 @@ Unused Languages
 1. Erlang
 1. Lua
 1. Julia
-1. PureScript
 1. Perl
 1. Prolog
 
