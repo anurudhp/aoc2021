@@ -73,6 +73,10 @@ day13.out: day13.c
 run-day13: day13.out
 	./$^ <inputs/day13.in
 
+# Day 14
+run-day14:
+	cd day14 && spago run -b ../inputs/day14.in
+
 # Misc
 clean:
 	rm -f *.o day02 day05 day08 day13.c day13.out
