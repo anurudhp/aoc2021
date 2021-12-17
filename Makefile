@@ -88,6 +88,11 @@ day16.out: day16.hs
 run-day16: day16.out
 	./$^ <inputs/day16.in
 
+# Day 17
+run-day17:
+	lua day17.lua <inputs/sample.in
+	lua day17.lua <inputs/day17.in
+
 # Misc
 clean:
 	rm -f *.o utils/bf-int day02 day05 day08 day13.c day13.out \
@@ -96,6 +101,6 @@ clean:
 all: run-day01 run-day02 run-day03 run-day04 run-day05 \
      run-day06 run-day07 run-day08 run-day09 run-day10 \
      run-day11 run-day12 run-day13 run-day14 run-day15 \
-		 run-day16
+		 run-day16 run-day17
 
 .PHONY: clean day03

@@ -22,6 +22,7 @@ Problems
 14. Purescript: `day14.purs` (symlinked to `day14/day14.purs`)
 15. C#: `day15.cs` (symlinked to `day15/Program.cs`)
 16. Haskell (`ghc-9.2.1`): `day16.hs`
+17. Lua: `day17.lua`
 
 How To Use
 ----------
@@ -49,7 +50,6 @@ Unused Languages
 ### Could learn
 
 1. Erlang
-1. Lua
 1. Julia
 1. Scala
 1. Perl
