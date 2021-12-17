@@ -90,7 +90,8 @@ run-day16: day16.out
 
 # Misc
 clean:
-	rm -f *.o utils/bf-int day02 day05 day08 day13.c day13.out day16.out
+	rm -f *.o utils/bf-int day02 day05 day08 day13.c day13.out \
+		day16.out day16.hi
 
 all: run-day01 run-day02 run-day03 run-day04 run-day05 \
      run-day06 run-day07 run-day08 run-day09 run-day10 \
