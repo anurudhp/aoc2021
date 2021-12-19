@@ -54,6 +54,7 @@ Unused Languages
 1. Scala
 1. Perl
 1. Prolog
+1. Zig
 
 ### Extra
 
