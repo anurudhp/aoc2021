@@ -23,6 +23,7 @@ Problems
 15. C#: `day15.cs` (symlinked to `day15/Program.cs`)
 16. Haskell (`ghc-9.2.1`): `day16.hs`
 17. Lua: `day17.lua`
+18. Coq: `day18.v`
 
 How To Use
 ----------
@@ -44,7 +45,6 @@ Unused Languages
 1. Rust
 1. Go
 1. OCaml
-1. Coq
 1. Bash
 
 ### Could learn

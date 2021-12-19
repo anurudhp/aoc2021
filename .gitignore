@@ -12,3 +12,12 @@ day03/obj
 .nrepl-port
 leanpkg.toml
 day13.c
+*.glob
+*.vo
+*.vos
+*.vok
+*.aux
+day18.ml*
+_build/
+*.native
+
