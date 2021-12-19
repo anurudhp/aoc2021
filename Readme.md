@@ -24,6 +24,7 @@ Problems
 16. Haskell (`ghc-9.2.1`): `day16.hs`
 17. Lua: `day17.lua`
 18. Coq: `day18.v`
+19. Javascript (node.js): `day19.js`
 
 How To Use
 ----------
@@ -40,7 +41,6 @@ Unused Languages
 
 ### I know
 
-1. Javascript (node)
 1. Kotlin
 1. Rust
 1. Go

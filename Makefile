@@ -103,6 +103,10 @@ day18.native: day18.ml
 run-day18: day18.native
 	./$^ inputs/day18.in
 
+# Day 19
+run-day19:
+	node day19.js inputs/day19.in
+
 # Misc
 clean:
 	rm -f *.o utils/bf-int day02 day05 day08 day13.c day13.out \
@@ -112,6 +116,6 @@ clean:
 all: run-day01 run-day02 run-day03 run-day04 run-day05 \
      run-day06 run-day07 run-day08 run-day09 run-day10 \
      run-day11 run-day12 run-day13 run-day14 run-day15 \
-		 run-day16 run-day17 run-day18
+		 run-day16 run-day17 run-day18 run-day19
 
 .PHONY: clean day03
