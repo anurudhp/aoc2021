@@ -25,6 +25,8 @@ Problems
 17. Lua: `day17.lua`
 18. Coq: `day18.v`
 19. Javascript (node.js): `day19.js`
+20. Zig: `day20.zig`
+21. Scala (scala3): `day21.sc`
 
 How To Use
 ----------
@@ -51,10 +53,8 @@ Unused Languages
 
 1. Erlang
 1. Julia
-1. Scala
 1. Perl
 1. Prolog
-1. Zig
 
 ### Extra
 
