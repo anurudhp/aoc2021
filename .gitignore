@@ -21,5 +21,6 @@ day18.ml*
 _build/
 *.native
 zig-cache
+day20
 *.class
 *.tasty

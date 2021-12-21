@@ -112,7 +112,7 @@ day20: day20.zig
 	zig build-exe $^
 
 run-day20: day20
-	./$^ <inputs/sample.in
+	./$^ <inputs/day20.in
 
 # Day 21
 day21.class: day21.sc
