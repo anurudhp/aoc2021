@@ -107,15 +107,31 @@ run-day18: day18.native
 run-day19:
 	node day19.js inputs/day19.in
 
+# Day 20
+day20: day20.zig
+	zig build-exe $^
+
+run-day20: day20
+	./$^ <inputs/sample.in
+
+# Day 21
+day21.class: day21.sc
+	scalac3 day21.sc
+
+run-day21: day21.class
+	scala3 day21 <inputs/day21.in
+
 # Misc
 clean:
 	rm -f *.o utils/bf-int day02 day05 day08 day13.c day13.out \
 		day16.out day16.hi
 	rm -rf _build day18.ml* day18.vo* day18.glob day18.native
+	rm -rf day20 zig-cache
+	rm -rf day21*.class day21*.tasty
 
 all: run-day01 run-day02 run-day03 run-day04 run-day05 \
      run-day06 run-day07 run-day08 run-day09 run-day10 \
      run-day11 run-day12 run-day13 run-day14 run-day15 \
-		 run-day16 run-day17 run-day18 run-day19
+		 run-day16 run-day17 run-day18 run-day19 run-day20
 
 .PHONY: clean day03

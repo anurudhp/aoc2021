@@ -20,4 +20,6 @@ day13.c
 day18.ml*
 _build/
 *.native
-
+zig-cache
+*.class
+*.tasty
