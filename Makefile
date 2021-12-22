@@ -129,6 +129,9 @@ run-day22:
 clean:
 	rm -f *.o utils/bf-int day02 day05 day08 day13.c day13.out \
 		day16.out day16.hi
+	rm -rf day03/bin day03/obj
+	cd day14 && rm -rf node_modules output .spago .purs-repl
+	rm -rf day15/bin day15/obj
 	rm -rf _build day18.ml* day18.vo* day18.glob day18.native
 	rm -rf day20 zig-cache
 	rm -rf day21*.class day21*.tasty
