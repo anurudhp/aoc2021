@@ -1,8 +1,6 @@
-{-# LANGUAGE CPP #-}
-
 import Control.Arrow ((>>>))
 import Control.Monad (replicateM)
-import Numeric
+import Numeric (readHex, readBin, showBin)
 import Text.Parsec
 import Data.Either (fromRight)
 import Data.Bool (bool)
@@ -93,11 +91,3 @@ showBin' = flip showBin ""
 
 pad :: Int -> String -> String
 pad n s = replicate (n - length s) '0' ++ s
-
--- LSP hack, ignore
-#if !MIN_VERSION_base(4,16,0)
-readBin :: (Eq a, Num a) => ReadS a
-readBin = error "use GHC >= 9.2.1; base >= 4.16.0.0"
-showBin :: (Integral a, Show a) => a -> ShowS
-showBin = error "use GHC >= 9.2.1; base >= 4.16.0.0"
-#endif
