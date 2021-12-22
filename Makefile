@@ -121,6 +121,10 @@ day21.class: day21.sc
 run-day21: day21.class
 	scala3 day21 <inputs/day21.in
 
+# Day 22
+run-day22:
+	julia day22.jl <inputs/day22.in
+
 # Misc
 clean:
 	rm -f *.o utils/bf-int day02 day05 day08 day13.c day13.out \
@@ -132,6 +136,7 @@ clean:
 all: run-day01 run-day02 run-day03 run-day04 run-day05 \
      run-day06 run-day07 run-day08 run-day09 run-day10 \
      run-day11 run-day12 run-day13 run-day14 run-day15 \
-		 run-day16 run-day17 run-day18 run-day19 run-day20
+     run-day16 run-day17 run-day18 run-day19 run-day20 \
+     run-day21 run-day22
 
 .PHONY: clean day03
