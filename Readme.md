@@ -28,6 +28,9 @@ Problems
 20. Zig: `day20.zig`
 21. Scala (scala3): `day21.sc`
 22. Julia: `day22.jl`
+23. Go
+24. Kotlin
+25. Rust: `day25.rs`
 
 How To Use
 ----------
@@ -38,26 +41,18 @@ Unused Languages
 ----------------
 
 ### Banned
+
 1. C
 1. C++
 1. Python
 
-### I know
+### Unused
 
-1. Kotlin
-1. Rust
-1. Go
 1. OCaml
 1. Bash
-
-### Could learn
-
 1. Erlang
 1. Perl
 1. Prolog
-
-### Extra
-
 1. vimscript
 1. Cobol
 1. Euclid
