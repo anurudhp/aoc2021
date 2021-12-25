@@ -125,6 +125,13 @@ run-day21: day21.class
 run-day22:
 	julia day22.jl <inputs/day22.in
 
+# Day 25
+day25.out: day25.rs
+	rustc -O -o $@ $^
+
+run-day25: day25.out
+	./$^ <inputs/day25.in
+
 # Misc
 clean:
 	rm -f *.o utils/bf-int day02 day05 day08 day13.c day13.out \
@@ -135,6 +142,7 @@ clean:
 	rm -rf _build day18.ml* day18.vo* day18.glob day18.native
 	rm -rf day20 zig-cache
 	rm -rf day21*.class day21*.tasty
+	rm -rf day25.out
 
 all: run-day01 run-day02 run-day03 run-day04 run-day05 \
      run-day06 run-day07 run-day08 run-day09 run-day10 \
