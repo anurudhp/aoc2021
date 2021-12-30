@@ -125,12 +125,17 @@ run-day21: day21.class
 run-day22:
 	julia day22.jl <inputs/day22.in
 
-# Day 25
-day25.out: day25.rs
-	rustc -O -o $@ $^
+# Day 23
+run-day23:
+	@echo "incomplete!"
 
-run-day25: day25.out
-	./$^ <inputs/day25.in
+# Day 24
+run-day24:
+	@echo "incomplete!"
+
+# Day 25
+run-day25:
+	go run day25 <inputs/day25.in
 
 # Misc
 clean:
@@ -148,6 +153,6 @@ all: run-day01 run-day02 run-day03 run-day04 run-day05 \
      run-day06 run-day07 run-day08 run-day09 run-day10 \
      run-day11 run-day12 run-day13 run-day14 run-day15 \
      run-day16 run-day17 run-day18 run-day19 run-day20 \
-     run-day21 run-day22
+     run-day21 run-day22 run-day23 run-day24 run-day25
 
 .PHONY: clean day03
