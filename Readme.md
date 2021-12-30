@@ -28,9 +28,9 @@ Problems
 20. Zig: `day20.zig`
 21. Scala (scala3): `day21.sc`
 22. Julia: `day22.jl`
-23. Go
-24. Kotlin
-25. Rust: `day25.rs`
+23. Rust:
+24. ???
+25. Go: `day25.go`
 
 How To Use
 ----------
