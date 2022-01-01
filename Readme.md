@@ -29,7 +29,7 @@ Problems
 21. Scala (scala3): `day21.sc`
 22. Julia: `day22.jl`
 23. Rust: `day23.rs` (part 1 only)
-24. ???
+24. Haskell: `day24.hs`
 25. Go: `day25.go` (part 1 only)
 
 How To Use

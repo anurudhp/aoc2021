@@ -130,8 +130,10 @@ run-day23:
 	@echo "incomplete!"
 
 # Day 24
-run-day24:
-	@echo "incomplete!"
+day24.out: day24.hs
+	ghc -O2 -o $@ $^
+run-day24: day24.out
+	./$^ <inputs/day24.in
 
 # Day 25
 run-day25:
@@ -147,7 +149,7 @@ clean:
 	rm -rf _build day18.ml* day18.vo* day18.glob day18.native
 	rm -rf day20 zig-cache
 	rm -rf day21*.class day21*.tasty
-	rm -rf day25.out
+	rm -rf day24.out day25.out
 
 all: run-day01 run-day02 run-day03 run-day04 run-day05 \
      run-day06 run-day07 run-day08 run-day09 run-day10 \
