@@ -17,7 +17,7 @@ func deepcopy(out, in interface{}) {
 func stepAlong(grid [][]byte, c byte, di, dj int) bool {
 	n := len(grid)
 	m := len(grid[0])
-  var cpy [][]byte
+	var cpy [][]byte
 	deepcopy(&cpy, grid)
 	upd := false
 
