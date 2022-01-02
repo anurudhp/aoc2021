@@ -126,8 +126,11 @@ run-day22:
 	julia day22.jl <inputs/day22.in
 
 # Day 23
-run-day23:
-	@echo "incomplete!"
+day23.out: day23.rs
+	rustc -O -o $@ $^
+
+run-day23: day23.out
+	./$^ <inputs/day23.in
 
 # Day 24
 day24.out: day24.hs
@@ -149,7 +152,7 @@ clean:
 	rm -rf _build day18.ml* day18.vo* day18.glob day18.native
 	rm -rf day20 zig-cache
 	rm -rf day21*.class day21*.tasty
-	rm -rf day24.out day25.out
+	rm -rf day23.out day24.out day25.out
 
 all: run-day01 run-day02 run-day03 run-day04 run-day05 \
      run-day06 run-day07 run-day08 run-day09 run-day10 \
