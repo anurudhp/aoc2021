@@ -30,7 +30,7 @@ Problems
 22. Julia: `day22.jl`
 23. Rust: `day23.rs`
 24. Haskell: `day24.hs`
-25. Go: `day25.go` (part 1 only)
+25. Go: `day25.go`
 
 How To Use
 ----------
