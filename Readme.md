@@ -1,6 +1,8 @@
 [Advent of Code 2021](https://adventofcode.com/2021)
 ====================================================
 
+**Status: Completed!**
+
 Personal Challenge: Code each solution in a different language.
 
 Problems
