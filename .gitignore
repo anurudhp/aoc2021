@@ -12,6 +12,7 @@ day03/obj
 .nrepl-port
 leanpkg.toml
 day13.c
+*.jar
 *.glob
 *.vo
 *.vos

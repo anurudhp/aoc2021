@@ -21,7 +21,7 @@ Problems
 13. Lean (lean4): `day13.lean`
 14. Purescript: `day14.purs` (symlinked to `day14/day14.purs`)
 15. C#: `day15.cs` (symlinked to `day15/Program.cs`)
-16. Haskell (`ghc-9.2.1`): `day16.hs`
+16. Kotlin: `day16.kt`
 17. Lua: `day17.lua`
 18. Coq: `day18.v`
 19. Javascript (node.js): `day19.js`

@@ -82,11 +82,11 @@ run-day15:
 	cd day15 && dotnet run -- ../inputs/day15.in
 
 # Day 16
-day16.out: day16.hs
-	ghc-9.2.1 -o $@ $^
+day16.jar: day16.kt
+	kotlinc $^ -include-runtime -nowarn -d $@
 
-run-day16: day16.out
-	./$^ <inputs/day16.in
+run-day16: day16.jar
+	java -jar day16.jar <inputs/day16.in
 
 # Day 17
 run-day17:
@@ -144,11 +144,11 @@ run-day25:
 
 # Misc
 clean:
-	rm -f *.o utils/bf-int day02 day05 day08 day13.c day13.out \
-		day16.out day16.hi
+	rm -f *.o utils/bf-int day02 day05 day08 day13.c day13.out
 	rm -rf day03/bin day03/obj
 	cd day14 && rm -rf node_modules output .spago .purs-repl
 	rm -rf day15/bin day15/obj
+	rm -rf day16.jar
 	rm -rf _build day18.ml* day18.vo* day18.glob day18.native
 	rm -rf day20 zig-cache
 	rm -rf day21*.class day21*.tasty
